@@ -2,7 +2,7 @@
 // Created by dwarak on 9/10/19.
 //
 
-// OpenGL functions that are used to create context windows
+// OpenGL functions that are used to create core windows
 // and visualize the simulations results
 
 #ifndef SARVIK_VISUALIZATION_OPENGL_H_

@@ -12,7 +12,7 @@ namespace sarvik
     namespace forces
     {
         // Abstract base class for all types of forces that acts on a given body
-        // in a given context.
+        // in a given core.
         class ForceBaseClass
         {
             std::string ForceName;

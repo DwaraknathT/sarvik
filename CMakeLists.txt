@@ -18,10 +18,10 @@ find_package(glad CONFIG REQUIRED)
 
 add_executable(sarvik
         ${PROJECT_SOURCE_DIR}/test.cpp
-        sarvik/context/context.h
-        sarvik/forces/forces.h
+        sarvik/core/context.h
+        sarvik/core/forces.h
         sarvik/exceptions/common_excep.h
-        sarvik/visualization/opengl.h sarvik/context/bodies.h)
+        sarvik/visualization/opengl.h sarvik/core/bodies.h)
 target_link_libraries(sarvik PRIVATE
         glfw
         glad::glad)

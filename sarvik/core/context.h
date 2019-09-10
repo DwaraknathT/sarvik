@@ -6,13 +6,16 @@
 #define SARVIK_CONTEXT_H
 
 #include <string>
+
+
 namespace sarvik
 {
-    // ABC for the context in which the
+    // ABC for the core in which the
     // computations take place
     class Context
     {
         std::string ContextName; //Context identifier
+
     public:
         Context (std::string ContextName)
         {
