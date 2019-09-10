@@ -19,10 +19,9 @@ namespace sarvik
             this->ContextName = ContextName;
         }
 
-        std::string GetContextInfo ()
+        std::string GetContextName ()
         {
             std::string ContextName = this->ContextName;
-
             return ContextName;
         }
     };
